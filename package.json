@@ -1,11 +1,11 @@
 {
-  "name": "lesson1",
+  "name": "lesson2",
   "version": "1.0.0",
   "description": "individual assignment 2",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/wazuu/cse341-node#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
