@@ -1,0 +1,29 @@
+// Local Host
+###
+GET http://localhost:3000/contacts
+###
+GET http://localhost:3000/contacts/63ba2a33a7b77526dcf39c95
+
+
+###
+GET http://localhost:3000/contacts/63ba2a33a7b77526dcf39c96
+
+
+###
+GET http://localhost:3000/contacts/63ba2a33a7b77526dcf39c97
+
+
+// Production
+###
+GET https://cse341-lesson-2.onrender.com/cotacts
+
+###
+GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c95
+
+
+###
+GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c96
+
+
+###
+GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c97

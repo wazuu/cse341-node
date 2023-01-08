@@ -1,0 +1,4 @@
+MONGDB_URI=mongodb+srv://chauncey24:2424GoGreen2009!@cluster0.ehdx8oe.mongodb.net/test
+
+node_modules
+.env

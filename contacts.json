@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Wendy",
+      "lastName": "Smith",
+      "email": "bird@test.com",
+      "favoriteColor": "Pink",
+      "birthday": "12/12/88"
+    },
+    "contact2": {
+      "firstName": "Westin",
+      "lastName": "Smith",
+      "email": "wbest@test.com",
+      "favoriteColor": "Orange",
+      "birthday": "12/12/12"
+    },
+    "contact3": {
+      "firstName": "Natale Faye",
+      "lastName": "Smith",
+      "email": "artist@test.com",
+      "favoriteColor": "Pink",
+      "birthday": "06/12/15"
+    }
+  }
