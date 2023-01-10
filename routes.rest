@@ -11,6 +11,31 @@ GET http://localhost:8080/contacts/63ba2a33a7b77526dcf39c96
 
 ###
 GET http://localhost:8080/contacts/63ba2a33a7b77526dcf39c97
+###
+
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Noah",
+    "lastName": "Smith",
+    "email": "ninjakid@test.com",
+    "favoriteColor": "Green",
+    "birthday": "07/23/2020"
+}
+###
+PUT http://localhost:8080/contacts/63ba2a33a7b77526dcf39c95 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Wendy",
+    "lastName": "Smith",
+    "email": "bird@test.com",
+    "favoriteColor": "Pink",
+    "birthday": "12/12/88"
+}
+###
+DELETE http://localhost:8080/contacts/63ba2a33a7b77526dcf39c96 HTTP/1.1
 
 
 // Production
@@ -27,3 +52,28 @@ GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c96
 
 ###
 GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c97
+
+###
+POST https://cse341-lesson-3.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Noah",
+    "lastName": "Smith",
+    "email": "ninjakid@test.com",
+    "favoriteColor": "Green",
+    "birthday": "07/23/2020"
+}
+###
+PUT https://cse341-lesson-3.onrender.com/cotacts/63ba2a33a7b77526dcf39c95 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Wendy",
+    "lastName": "Smith",
+    "email": "bird@test.com",
+    "favoriteColor": "Pink",
+    "birthday": "12/12/88"
+}
+###
+DELETE https://cse341-lesson-3.onrender.com/cotacts/63ba2a33a7b77526dcf39c96 HTTP/1.1
