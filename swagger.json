@@ -5,7 +5,7 @@
     "description": "L4",
     "version": "1.0.0"
   },
-  "host": "cse341-lesson-3.onrender.com",
+  "host": "cse341-lesson-4.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
