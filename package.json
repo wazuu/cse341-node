@@ -1,7 +1,7 @@
 {
-  "name": "lesson4",
+  "name": "lessons-5-8",
   "version": "1.0.0",
-  "description": "individual assignment 4",
+  "description": "individual assignment 5-8",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

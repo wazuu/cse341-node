@@ -1,79 +1,79 @@
 // Local Host
 ###
-GET http://localhost:8080/contacts
+GET http://localhost:8080/players
 ###
-GET http://localhost:8080/contacts/63ba2a33a7b77526dcf39c95
-
-
-###
-GET http://localhost:8080/contacts/63ba2a33a7b77526dcf39c96
+GET http://localhost:8080/players/63c7509569d50b2d4a3eb034
 
 
 ###
-GET http://localhost:8080/contacts/63ba2a33a7b77526dcf39c97
+GET http://localhost:8080/players/63c7509569d50b2d4a3eb035
+
+
+###
+GET http://localhost:8080/players/63c7509569d50b2d4a3eb036
 ###
 
-POST http://localhost:8080/contacts HTTP/1.1
+POST http://localhost:8080/players HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Westin",
-    "lastName": "Smith",
-    "email": "ninjakid@test.com",
-    "favoriteColor": "Green",
-    "birthday": "07/23/2020"
+    "firstName": "Ken",
+      "lastName": "Griffey Jr",
+      "email": "thekid@mariners.com",
+      "fact": "Nick name is The Kid",
+      "team": "Seattle Mariners"
 }
 ###
-PUT http://localhost:8080/contacts/63ba2a33a7b77526dcf39c95 HTTP/1.1
+PUT http://localhost:8080/players/63c7509569d50b2d4a3eb034 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Wendy",
-    "lastName": "Smith",
-    "email": "bird@test.com",
-    "favoriteColor": "Pink",
-    "birthday": "12/12/88"
+      "firstName": "Babe",
+      "lastName": "Ruth",
+      "email": "thegreatbambino@nyy.com",
+      "fact": "Nick name is the great bambino",
+      "team": "New York Yankees"
 }
 ###
-DELETE http://localhost:8080/contacts/63ba2a33a7b77526dcf39c96 HTTP/1.1
+DELETE http://localhost:8080/players/63c7509569d50b2d4a3eb036 HTTP/1.1
 
 
 // Production
 ###
-GET https://cse341-lesson-2.onrender.com/cotacts
+GET https://cse341-lessons-5-8.onrender.com/players
 
 ###
-GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c95
-
-
-###
-GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c96
+GET https://cse341-lessons-5-8.onrender.com/players/63c7509569d50b2d4a3eb034
 
 
 ###
-GET https://cse341-lesson-2.onrender.com/cotacts/63ba2a33a7b77526dcf39c97
+GET https://cse341-lessons-5-8.onrender.com/63c7509569d50b2d4a3eb035
+
 
 ###
-POST https://cse341-lesson-3.onrender.com/contacts HTTP/1.1
+GET https://cse341-lessons-5-8.onrender.com/players/63c7509569d50b2d4a3eb036
+
+###
+POST https://cse341-lessons-5-8.onrender.com/players HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Noah",
-    "lastName": "Smith",
-    "email": "ninjakid@test.com",
-    "favoriteColor": "Green",
-    "birthday": "07/23/2020"
+    "firstName": "Aaron",
+      "lastName": "Judge",
+      "email": "thejudge@nyy.com",
+      "fact": "Nick name is The Judge",
+      "team": "New York Yankees"
 }
 ###
-PUT https://cse341-lesson-3.onrender.com/cotacts/63ba2a33a7b77526dcf39c95 HTTP/1.1
+PUT https://cse341-lessons-5-8.onrender.com/players/63c7509569d50b2d4a3eb034 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Wendy",
-    "lastName": "Smith",
-    "email": "bird@test.com",
-    "favoriteColor": "Pink",
-    "birthday": "12/12/88"
+    "firstName": "Babe",
+      "lastName": "Ruth",
+      "email": "thegreatbambino@nyy.com",
+      "fact": "Nick name is the great bambino",
+      "team": "New York Yankees"
 }
 ###
-DELETE https://cse341-lesson-3.onrender.com/cotacts/63ba2a33a7b77526dcf39c96 HTTP/1.1
+DELETE https://cse341-lessons-5-8.onrender.com/players/63c7509569d50b2d4a3eb036 HTTP/1.1

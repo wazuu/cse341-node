@@ -2,10 +2,10 @@
   "swagger": "2.0",
   "info": {
     "title": "L4 API",
-    "description": "L4",
+    "description": "L5-8",
     "version": "1.0.0"
   },
-  "host": "cse341-lesson-4.onrender.com",
+  "host": "cse341-lessons-5-8.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
