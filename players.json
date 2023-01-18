@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Babe",
+      "lastName": "Ruth",
+      "email": "thegreatbambino@nyy.com",
+      "fact": "Nick name is the great bambino",
+      "team": "New York Yankees"
+    },
+    "contact2": {
+      "firstName": "Hank",
+      "lastName": "Aaron",
+      "email": "homers@mwkb.com",
+      "fact": "Nick name is Hammerin Hank",
+      "team": "Milwaukee Brewers"
+    },
+    "contact3": {
+      "firstName": "Ty",
+      "lastName": "Cobb",
+      "email": "aggression@phat.com",
+      "fact": "Famous quote, They were all against me",
+      "team": "Philadelphia Athletics"
+    }
+  }
