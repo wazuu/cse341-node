@@ -23,6 +23,20 @@ const getSingle = async (req, res, next) => {
 };
 
 const createContact = async (req, res) => {
+  try {
+    if (
+      !req.body?.firstName ||
+      !req.body?.lastName ||
+      !req.body?.position ||
+      !req.body?.team ||
+      !req.body?.birthday ||
+      !req.body?.college ||
+      !req.body?.championships
+    ) {
+      console.log("Invalid");
+      res.status(400).send("Bad request");
+      return;
+    }
   const contact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -36,6 +50,9 @@ const createContact = async (req, res) => {
   } else {
     res.status(500).json(response.error || 'Some error occurred while creating the contact.');
   }
+} catch (error) {
+  res.status(500).json(error);
+}
 };
 
 const updateContact = async (req, res) => {
