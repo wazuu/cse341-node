@@ -50,9 +50,9 @@ const createContact = async (req, res) => {
   } else {
     res.status(500).json(response.error || 'Some error occurred while creating the contact.');
   }
-} catch (error) {
-  res.status(500).json(error);
-}
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 const updateContact = async (req, res) => {
@@ -89,9 +89,9 @@ const updateContact = async (req, res) => {
   } else {
     res.status(500).json(response.error || 'Some error occurred while updating the contact.');
   }
-} catch (error) {
-  res.status(500).json(error);
-}
+  } catch (error) {
+    res.status(500).json(error);
+  }
 };
 
 const deleteContact = async (req, res) => {
