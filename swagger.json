@@ -49,10 +49,16 @@
                 "email": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "fact": {
                   "example": "any"
                 },
-                "birthday": {
+                "team": {
+                  "example": "any"
+                },
+                "yearsPlayed": {
+                  "example": "any"
+                },
+                "position": {
                   "example": "any"
                 }
               }
@@ -116,10 +122,16 @@
                 "email": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "fact": {
                   "example": "any"
                 },
-                "birthday": {
+                "team": {
+                  "example": "any"
+                },
+                "yearsPlayed": {
+                  "example": "any"
+                },
+                "position": {
                   "example": "any"
                 }
               }
