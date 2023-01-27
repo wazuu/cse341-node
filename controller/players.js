@@ -37,13 +37,15 @@ const createContact = async (req, res) => {
       res.status(400).send("Bad request");
       return;
     }
-  const contact = {
-    firstName: req.body.firstName,
-    lastName: req.body.lastName,
-    email: req.body.email,
-    favoriteColor: req.body.favoriteColor,
-    birthday: req.body.birthday
-  };
+    const contact = {
+      firstName: req.body.firstName,
+      lastName: req.body.lastName,
+      email: req.body.email,
+      fact: req.body.fact,
+      team: req.body.team,
+      yearsPlayed: req.body.yearsPlayed,
+      position: req.body.position
+    };
   const response = await mongodb.getDb().db("auth").collection('players').insertOne(contact);
   if (response.acknowledged) {
     res.status(201).json(response);
@@ -75,8 +77,10 @@ const updateContact = async (req, res) => {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
     email: req.body.email,
-    favoriteColor: req.body.favoriteColor,
-    birthday: req.body.birthday
+    fact: req.body.fact,
+    team: req.body.team,
+    yearsPlayed: req.body.yearsPlayed,
+    position: req.body.position
   };
   const response = await mongodb
     .getDb()
