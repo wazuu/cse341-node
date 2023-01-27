@@ -21,7 +21,9 @@ content-type: application/json
       "lastName": "Griffey Jr",
       "email": "thekid@mariners.com",
       "fact": "Nick name is The Kid",
-      "team": "Seattle Mariners"
+      "team": "Seattle Mariners",
+      "yearsPlayed": "22",
+      "position": "outfielder"
 }
 ###
 PUT http://localhost:8080/players/63c7509569d50b2d4a3eb034 HTTP/1.1
@@ -32,7 +34,9 @@ content-type: application/json
       "lastName": "Ruth",
       "email": "thegreatbambino@nyy.com",
       "fact": "Nick name is the great bambino",
-      "team": "New York Yankees"
+      "team": "New York Yankees",
+      "yearsPlayed": "22",
+      "position": "pitcher, outfielder"
 }
 ###
 DELETE http://localhost:8080/players/63c7509569d50b2d4a3eb036 HTTP/1.1
