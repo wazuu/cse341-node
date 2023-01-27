@@ -25,13 +25,13 @@ const getSingle = async (req, res, next) => {
 const createContact = async (req, res) => {
   try {
     if (
-      !req.body?.firstName ||
+      !!req.body?.firstName ||
       !req.body?.lastName ||
-      !req.body?.position ||
+      !req.body?.email ||
+      !req.body?.fact ||
       !req.body?.team ||
-      !req.body?.birthday ||
-      !req.body?.college ||
-      !req.body?.championships
+      !req.body?.yearsPlayed ||
+      !req.body?.position
     ) {
       console.log("Invalid");
       res.status(400).send("Bad request");
@@ -60,11 +60,11 @@ const updateContact = async (req, res) => {
     if (
       !req.body?.firstName ||
       !req.body?.lastName ||
-      !req.body?.position ||
+      !req.body?.email ||
+      !req.body?.fact ||
       !req.body?.team ||
-      !req.body?.birthday ||
-      !req.body?.college ||
-      !req.body?.championships
+      !req.body?.yearsPlayed ||
+      !req.body?.position
     ) {
       console.log("Invalid");
       res.status(400).send("Bad request");
