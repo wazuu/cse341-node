@@ -25,7 +25,7 @@ const getSingle = async (req, res, next) => {
 const createContact = async (req, res) => {
   try {
     if (
-      !!req.body?.firstName ||
+      !req.body?.firstName ||
       !req.body?.lastName ||
       !req.body?.email ||
       !req.body?.fact ||
